@@ -56,6 +56,18 @@
 			</div>
 			</div>
 
+
+			<div id="afterCollapseInfo">
+				<div class="buttons">
+					<button id="text"class="button">Text Customer</button>
+					<button id="done" class="button"onclick="collapse()">Close</button>
+				</div>
+				<div class="afterButtons">
+
+				<button id="back" class="button">Back</button>
+			</div>
+			</div>
+
 	</div>
 
 </div>
@@ -63,15 +75,21 @@
 
 
 
+
+
+
+
+
+
+
+
+
 <script>
 function collapse(){
-	var x = document.getElementById("collapseInfo");
+var x = document.getElementById("collapseInfo");
+var y = document.getElementById("afterCollapseInfo");
 x.style.display="none";
-	var x = document.getElementById("collapseInfo");
-	if (x.style.display=="block"){
-		console.log("hello");
-		x.style.display="none";
-	}
+y.style.display="block";
 }
   </script>
 

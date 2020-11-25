@@ -76,9 +76,7 @@ p.note {
 
 }
 
-.button start{
 
-}
 
 /* buttons on the finish popup */
 .verticleButton {
@@ -133,10 +131,17 @@ p.note {
 }
 .buttons #done {
 	float:right;
-	padding-right: 20px;
+
 
 }
-
+.afterButtons #back{
+	float:right;
+	margin-right: 20px;
+	background-color: white;
+	margin-bottom: 20px;
+	outline:auto;
+	color:black;
+}
 .customer{
 	display:inline-block;
 }
@@ -173,6 +178,10 @@ div.finish {
 
 #collapseInfo{
 	display:block;
+}
+
+#afterCollapseInfo{
+	display:none;
 }
 
 .modal {
