@@ -59,7 +59,7 @@
 
 			<div id="afterCollapseInfo">
 				<div class="buttons">
-					<button id="text"class="button">Text Customer</button>
+					<button id="text"class="button" onclick="textCustomer()">Text Customer</button>
 					<button id="done" class="button"onclick="collapse()">Close</button>
 				</div>
 				<div class="afterButtons">
@@ -97,6 +97,10 @@ function back(){
 	var y = document.getElementById("afterCollapseInfo");
 	x.style.display="block";
 	y.style.display="none";
+}
+function textCustomer(){
+	var x = document.getElementById("text");
+	x.innerHTML="Sent";
 }
   </script>
 
