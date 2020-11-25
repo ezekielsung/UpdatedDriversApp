@@ -120,6 +120,7 @@ p.note {
   overflow: hidden;
   width: 450px;
 	padding-left: 20px;
+	margin-top:20px;
 
 }
 
@@ -129,12 +130,12 @@ p.note {
 	padding-bottom:20px;
 	display:inline-inline-flex;
 }
-.buttons #done {
+.buttons #done, #done2 {
 	float:right;
 
 
 }
-.afterButtons #back{
+.afterButtons #back, #back2{
 	float:right;
 	margin-right: 20px;
 	background-color: white;
@@ -176,11 +177,11 @@ div.finish {
 
 }
 
-#collapseInfo{
+#collapseInfo,#collapseInfo2{
 	display:block;
 }
 
-#afterCollapseInfo{
+#afterCollapseInfo,#afterCollapseInfo2{
 	display:none;
 }
 
