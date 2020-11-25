@@ -81,7 +81,6 @@ function textCustomer3(){
 
 function close2(){
 	var y = document.getElementById("afterCollapseInfo2");
-  console.log("yellow");
 	y.style.display="none";
 }
 function close3(){
@@ -91,6 +90,5 @@ function close3(){
 
 function closeer(){
 	var y = document.getElementById("afterCollapseInfo");
-  console.log("read");
 	y.style.display="none";
 }
