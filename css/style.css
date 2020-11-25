@@ -32,7 +32,7 @@ h3 {
 h4{
   float:left;
   margin-bottom: 5px;
-  
+
 }
 
 h5{
@@ -91,8 +91,9 @@ ul {
 	border-radius: 6px;
 	box-shadow: 0 3px #999;
 	margin-top:20px;
-}
+	pointer-events:none;
 
+}
 
 
 /* buttons on the finish popup */
@@ -113,7 +114,7 @@ ul {
 
 
 .bag{
-	
+
 	background:#2828d2;
 	color:#fff;
 	margin: 10px;
@@ -152,7 +153,7 @@ ul {
 	padding-bottom:20px;
 	display:inline-inline-flex;
 }
-.buttons #done, #done2,#done3 {
+.buttons #done, #done2,#done3,#close1,#close2,#close3{
 	float:right;
 
 
@@ -169,19 +170,19 @@ div.customer{
 	display:inline-block;
 	text-align: center;
     font-size: 25px;
-	
-	
+
+
 }
 /* ADDRESS */
 .address {
-	font-size: 25px;
+	font-size: 15px;
 	text-align: left;
 	padding-left: 37px;
 	margin-bottom: 10px;
 	margin-right: 20px
 }
 /* number styling */
-span.number { 
+span.number {
 	text-align: center;
 	padding:  8px;
 	background: black;
@@ -205,7 +206,7 @@ div.finish {
 
 
 .headernav{
- 
+
   position: fixed;
   top: 0;
   right: 0;
@@ -231,7 +232,7 @@ div.finish {
 
 #collapseInfo,#collapseInfo2,#collapseInfo3{
 	display:block;
-	
+
 }
 
 #afterCollapseInfo,#afterCollapseInfo2,#afterCollapseInfo3{

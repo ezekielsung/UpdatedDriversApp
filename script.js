@@ -21,74 +21,105 @@ window.onclick = function(event) {
 }
 
 
-function collapse(){
-var x = document.getElementById("collapseInfo");
-var y = document.getElementById("afterCollapseInfo");
-x.style.display="none";
-y.style.display="block";
+function collapse(button){
+var z = button.id;
+
+switch (z){
+  case 'done':
+    var x = document.getElementById("collapseInfo");
+    var y = document.getElementById("afterCollapseInfo");
+    x.style.display="none";
+    y.style.display="block";
+    break;
+  case 'done2':
+    var x = document.getElementById("collapseInfo2");
+    var y = document.getElementById("afterCollapseInfo2");
+    x.style.display="none";
+    y.style.display="block";
+    break;
+  case 'done3':
+    var x = document.getElementById("collapseInfo3");
+    var y = document.getElementById("afterCollapseInfo3");
+    x.style.display="none";
+    y.style.display="block";
+    break;
+  return false;
 }
 
-function collapse2(){
-var x = document.getElementById("collapseInfo2");
-var y = document.getElementById("afterCollapseInfo2");
-x.style.display="none";
-y.style.display="block";
 }
 
-function collapse3(){
-var x = document.getElementById("collapseInfo3");
-var y = document.getElementById("afterCollapseInfo3");
-x.style.display="none";
-y.style.display="block";
-}
+function back(button){
+  var z=button.id;
 
-function back(){
-	var x = document.getElementById("collapseInfo");
-	var y = document.getElementById("afterCollapseInfo");
-	x.style.display="block";
-	y.style.display="none";
-}
-function back2(){
-	var x = document.getElementById("collapseInfo2");
-	var y = document.getElementById("afterCollapseInfo2");
-	x.style.display="block";
-	y.style.display="none";
-}
-
-function back3(){
-	var x = document.getElementById("collapseInfo3");
-	var y = document.getElementById("afterCollapseInfo3");
-	x.style.display="block";
-	y.style.display="none";
+  switch (z){
+    case 'back':
+      var x = document.getElementById("collapseInfo");
+      var y = document.getElementById("afterCollapseInfo");
+      x.style.display="block";
+      y.style.display="none";
+      break;
+    case 'back2':
+      var x = document.getElementById("collapseInfo2");
+      var y = document.getElementById("afterCollapseInfo2");
+      x.style.display="block";
+      y.style.display="none";
+      break;
+    case 'back3':
+      var x = document.getElementById("collapseInfo3");
+      var y = document.getElementById("afterCollapseInfo3");
+      x.style.display="block";
+      y.style.display="none";
+      break;
+    return false;
+  }
 }
 
 
-function textCustomer(){
-	var x = document.getElementById("text");
-	x.innerHTML="Sent";
-	x.style.background="gray";
-}
-function textCustomer2(){
-	var x = document.getElementById("text2");
-	x.innerHTML="Sent";
-	x.style.background="gray";
-}
-function textCustomer3(){
-	var x = document.getElementById("text3");
-	x.innerHTML="Sent";
-	x.style.background="gray";
+function textCustomer(button){
+  var y = button.id;
+
+  switch(y){
+    case 'text':
+      var x = document.getElementById("text");
+      x.innerHTML="Sent";
+      x.style.background="gray";
+      break;
+    case 'text2':
+      var x = document.getElementById("text2");
+    	x.innerHTML="Sent";
+    	x.style.background="gray";
+      break;
+    case 'text3':
+      var x = document.getElementById("text3");
+    	x.innerHTML="Sent";
+    	x.style.background="gray";
+      break;
+    return false;
+  }
+
 }
 
-function close2(){
-	var y = document.getElementById("afterCollapseInfo2");
-	y.style.display="none";
-}
-function close3(){
-	var y = document.getElementById("afterCollapseInfo3");
-	y.style.display="none";
+function closeer(button){
+  var x = button.id;
+
+switch(x){
+  case 'close1':
+    var y = document.getElementById("afterCollapseInfo");
+    y.style.display="none";
+    break;
+  case 'close2':
+    var y = document.getElementById("afterCollapseInfo2");
+    y.style.display="none";
+    break;
+  case 'close3':
+    var y = document.getElementById("afterCollapseInfo3");
+    y.style.display="none";
+
+    var z = document.getElementById("button2");
+    z.style.pointerEvents="all";
+    break;
+  return false;
 }
 
-function closeer(){
-	var y = document.getElementById("afterCollapseInfo");
-	y.style.display="none";
+
 }
