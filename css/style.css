@@ -9,11 +9,16 @@
 display: inline-block;
 }
 
+#drive{
+	margin-top: 15px;
+}
+
 
 img {
 float:left;
 display:inline-block;
 vertical-align: text-top;
+padding-top: 15px;
 
 }
 h1{
@@ -86,7 +91,7 @@ ul {
 	text-decoration: none;
 	outline: none;
 	color: #fff;
-	background-color: #008CBA; /* Blue */
+	background-color: #383838;
 	border: none;
 	border-radius: 6px;
 	box-shadow: 0 3px #999;

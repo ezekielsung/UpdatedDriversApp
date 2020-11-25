@@ -106,17 +106,26 @@ switch(x){
   case 'close1':
     var y = document.getElementById("afterCollapseInfo");
     y.style.display="none";
+
+    var q = document.getElementById("cust1");
+    q.style.marginBottom="30px";
+
     break;
   case 'close2':
     var y = document.getElementById("afterCollapseInfo2");
     y.style.display="none";
+    var q = document.getElementById("cust2");
+    q.style.marginBottom="30px";
     break;
   case 'close3':
     var y = document.getElementById("afterCollapseInfo3");
     y.style.display="none";
+    var q = document.getElementById("cust3");
+    q.style.marginBottom="30px";
 
     var z = document.getElementById("button2");
     z.style.pointerEvents="all";
+    z.style.background="#008CBA";
     break;
   return false;
 }
