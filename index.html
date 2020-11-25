@@ -64,7 +64,7 @@
 				</div>
 				<div class="afterButtons">
 
-				<button id="back" class="button">Back</button>
+				<button id="back" class="button"onclick="back()">Back</button>
 			</div>
 			</div>
 
@@ -90,6 +90,13 @@ var x = document.getElementById("collapseInfo");
 var y = document.getElementById("afterCollapseInfo");
 x.style.display="none";
 y.style.display="block";
+}
+
+function back(){
+	var x = document.getElementById("collapseInfo");
+	var y = document.getElementById("afterCollapseInfo");
+	x.style.display="block";
+	y.style.display="none";
 }
   </script>
 
