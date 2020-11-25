@@ -92,6 +92,8 @@ ul {
 	box-shadow: 0 3px #999;
 	margin-top:20px;
 	pointer-events:none;
+	padding-left: 165px;
+	padding-right: 165px;
 
 }
 
