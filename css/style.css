@@ -1,8 +1,4 @@
 
-
-
-
-
 .div1{
 	overflow:auto;
 	display:flex;
@@ -22,7 +18,7 @@ vertical-align: text-top;
 }
 h1{
 margin-bottom: 10px;
-marin:0;
+
 }
 
 
@@ -35,7 +31,17 @@ h3 {
 }
 h4{
   float:left;
+  margin-bottom: 5px;
+  
 }
+
+h5{
+	flex: 1;
+	padding: 15px;
+}
+
+
+
 body{
 
   background:#e7e7e7;
@@ -47,12 +53,7 @@ body{
 ul {
 	list-style-type: none;
 }
-/* styling Customer note */
-p.note {
-	text-indent: 80px;
-	display: inline-block;
 
-}
 
 .oList {
 	list-style-type: disc;
@@ -112,20 +113,25 @@ p.note {
 
 
 .bag{
-	display:flex;
-	background:blue;
+	
+	background:#2828d2;
 	color:#fff;
-	padding-right:100px;
+	margin: 10px;
+	align-self: center;
+	padding: 10px;
+	float: right;
+	border-radius: 10px;
 }
 
 .customersNote{
-	padding-left: 100px;
-  background:#e7e7e7;
-	display:inline-block;
-	padding-right: 150px;
-
-
+	border-radius: 10px;
+	background:#e7e7e7;
+	display: flex;
+	align-content: center;
+	margin-right: 20px;
+	font-size: 18px;
 }
+
 
 .container{
 	background:#fff;
@@ -159,8 +165,28 @@ p.note {
 	outline:auto;
 	color:black;
 }
-.customer{
+div.customer{
 	display:inline-block;
+	text-align: center;
+    font-size: 25px;
+	
+	
+}
+/* ADDRESS */
+.address {
+	font-size: 25px;
+	text-align: left;
+	padding-left: 37px;
+	margin-bottom: 10px;
+	margin-right: 20px
+}
+/* number styling */
+span.number { 
+	text-align: center;
+	padding:  8px;
+	background: black;
+	color: white;
+	border-radius: 5px;
 }
 
 /*finish page */
@@ -179,7 +205,17 @@ div.finish {
 
 
 .headernav{
-  align-items: center;
+ 
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  background-color: #e7e7e7;
+  display: inline-block;
+  padding: .35em;
+}
+.headernav a {
+	  text-decoration: none;
 }
 
 .content {
@@ -195,6 +231,7 @@ div.finish {
 
 #collapseInfo,#collapseInfo2,#collapseInfo3{
 	display:block;
+	
 }
 
 #afterCollapseInfo,#afterCollapseInfo2,#afterCollapseInfo3{
